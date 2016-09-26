@@ -40,11 +40,11 @@ class ViewController: UIViewController
     {
         //Make 3 values between 0-1 percentage and create color from them.
         let randomColor : UIColor
-        let red :CGFloat = CGFloat(drand48())
-        let green :CGFloat = CGFloat(drand48())
-        let blue :CGFloat = CGFloat(drand48())
+      //  let red :CGFloat = CGFloat(drand48())
+        //let green :CGFloat = CGFloat(drand48())
+        //let blue :CGFloat = CGFloat(drand48())
         
-        randomColor = UIColor(red: red, green: green, blue: blue, alpha: 255)
+        randomColor = UIColor(red: CGFloat(drand48()), green: CGFloat(drand48()), blue: CGFloat(drand48()), alpha: CGFloat(drand48()))
         
         return randomColor
     }
