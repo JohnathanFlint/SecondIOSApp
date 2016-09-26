@@ -15,6 +15,8 @@ class ViewController: UIViewController
     
     @IBOutlet weak var textLabel: UILabel!
    
+    @IBOutlet weak var background: UIView!
+    
     override func viewDidLoad()
     {
         super.viewDidLoad()
@@ -30,9 +32,22 @@ class ViewController: UIViewController
     @IBAction func clickedButton(sender: UIButton)
     {
         textLabel.text = "you clicked me!"
-        textLabel.textColor = UIColor.greenColor()
+        textLabel.textColor = makeRandomColor()
+        background.backgroundColor = makeRandomColor()
     }
     
+    private func makeRandomColor() -> UIColor
+    {
+        //Make 3 values between 0-1 percentage and create color from them.
+        let randomColor : UIColor
+        let red :CGFloat = CGFloat(drand48())
+        let green :CGFloat = CGFloat(drand48())
+        let blue :CGFloat = CGFloat(drand48())
+        
+        randomColor = UIColor(red: red, green: green, blue: blue, alpha: 255)
+        
+        return randomColor
+    }
 
 }
 

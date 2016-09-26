@@ -39,6 +39,7 @@
                     </view>
                     <connections>
                         <outlet property="FirstButton" destination="AIv-xE-o2t" id="F8j-Tv-GLR"/>
+                        <outlet property="background" destination="8bC-Xf-vdC" id="gXf-ye-4Xy"/>
                         <outlet property="firstButton" destination="AIv-xE-o2t" id="H1H-Ax-Qv4"/>
                         <outlet property="textLabel" destination="OJW-kU-pjL" id="LhW-II-6pt"/>
                     </connections>
