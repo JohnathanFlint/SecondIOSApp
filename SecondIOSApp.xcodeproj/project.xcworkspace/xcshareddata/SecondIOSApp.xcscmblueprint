@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D6EA40D387DEAF5F02D7CE237BE59EF5755B8587",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D6EA40D387DEAF5F02D7CE237BE59EF5755B8587" : 0,
+    "8A684E981FC44126AEF3CEC6CD97D56F2833649A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D2806D78-5443-48DF-A44A-3098C704D711",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D6EA40D387DEAF5F02D7CE237BE59EF5755B8587" : "SecondIOSApp\/",
+    "8A684E981FC44126AEF3CEC6CD97D56F2833649A" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SecondIOSApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SecondIOSApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JohnathanFlint\/String-Playgroung.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8A684E981FC44126AEF3CEC6CD97D56F2833649A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/JohnathanFlint\/SecondIOSApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D6EA40D387DEAF5F02D7CE237BE59EF5755B8587"
+    }
+  ]
+}
